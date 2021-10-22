@@ -33,7 +33,7 @@ for i in range(int(input("how many times"))):
             print("User Win")
             u=u+1
         elif(user==2):
-            print("Computer WIN")
+            print("Computer Win")
             c=c+1
 
 print("User points :",u)

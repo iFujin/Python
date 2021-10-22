@@ -10,20 +10,20 @@ for i in range(int(input("how many times"))):
         if(user==1):
             print("tie")
         elif(user==2):
-            print("User WIN")
+            print("User Win")
             u=u+1
         elif(user==3):
-            print("Computer WIN")
+            print("Computer Win")
             c=c+1
     elif(computer==2):
         print("computer enters: paper")
         if(user==2):
             print("tie")
         elif(user==3):
-            print("User WIN")
+            print("User Win")
             u=u+1
         elif(user==1):
-            print("Computer WIN")
+            print("Computer Win")
             c=c+1
     elif(computer==3):
         print("computer enters: scissor")

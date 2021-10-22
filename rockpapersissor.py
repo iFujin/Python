@@ -30,7 +30,7 @@ for i in range(int(input("how many times"))):
         if(user==3):
             print("tie")
         elif(user==1):
-            print("User WIN")
+            print("User Win")
             u=u+1
         elif(user==2):
             print("Computer WIN")
@@ -41,6 +41,6 @@ print("Computer points :",c)
 if (u<c):
     print("Computer Wins")
 elif (u>c):
-    print("User WINS")
+    print("User Wins")
 elif (u==c):
     print('Tie')
